@@ -23,3 +23,4 @@ select
     , (a.apple_cnt - o.orange_cnt) as diff
 from 
     apple_count a join oranges_count o on a.sale_date = o.sale_date
+order by 1
